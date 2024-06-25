@@ -6,3 +6,7 @@ spring:
       ddl-auto: update # Configura la estrategia de generación y actualización del esquema de la base de datos. update: Actualiza el esquema de la base de datos sin eliminar datos.
     show-sql: true # Indica si se deben mostrar en la consola las consultas SQL generadas por Hibernate.
     generate-ddl: true # Configura si Spring Data JPA debe generar el esquema DDL (Data Definition Language) basado en las entidades JPA definidas. Esta propiedad es redundante cuando se utiliza junto con spring.jpa.hibernate.ddl-auto, ya que esta última también controla la generación del esquema.
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bookingDb
+    username: postgres
+    password: postgres
