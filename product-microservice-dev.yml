@@ -5,4 +5,4 @@ spring:
     mongodb:
       uri: mongodb+srv://chris:admin@clusterspring.l3fvwng.mongodb.net/productDb?retryWrites=true&w=majority&appName=ClusterSpring
 app:
-  testProp: Property of test
+  testProp: Property of test updated
